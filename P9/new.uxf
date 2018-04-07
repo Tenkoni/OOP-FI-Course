@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>440</y>
+      <w>350</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>UserClock
+--
++UserClock (_seg: integer, _min: integer, _hor: integer)
++Print() : virtual override 
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>130</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>IPrintable
+--
+
++Print () : virtual
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>80</y>
+      <w>340</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Clock
+--
+-seg: integer
+-min: integer
+-hor: integer
+--
++Clock ()
++Clock (_seg: integer, _min: integer, _hor: integer)
++SetTime (_seg: integer, _min: integer, _hor: integer)
++GetHours () : integer
++GetMinutes () : integer
++GetSeconds () : integer
++operator== (rhs : Clock)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>270</y>
+      <w>340</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;Implementa&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;320.0;100.0;320.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>190</y>
+      <w>350</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;Implementa&gt;&gt;</panel_attributes>
+    <additional_attributes>240.0;10.0;240.0;180.0;10.0;180.0</additional_attributes>
+  </element>
+</diagram>
