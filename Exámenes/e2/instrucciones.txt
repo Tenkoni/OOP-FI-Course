@@ -1,0 +1,8 @@
+Para compilar el programa del primer reactivo (clase Automovil):
+g++ -Wall -std=c++11 -o automovil.out Automovil.cpp test_Automovil.cpp
+
+Para compilar el programa de lista del segundo reactivo (clase Lista):
+g++ -Wall -std=c++11 -o lista.out Lista.cpp test_Lista.cpp
+
+Para compilar el programa de Conjunto del segundo reactivo (clase Conjunto):
+g++ -Wall -std=c++11 -o conjunto.out Lista.cpp Conjunto.cpp test_Conjunto.cpp
