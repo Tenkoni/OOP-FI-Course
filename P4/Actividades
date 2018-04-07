@@ -1,0 +1,19 @@
+1. Realice un diagrama de clases para el ejercicio 9.5 (Clase Complejos) de la página 428 de las copias que
+recibió en clase [DEITEL14]. Escriba la declaración de esta clase en un archivo p4_act1.cpp.
+
+2. Realice un diagrama de clases para el ejercicio 9.11 (Clase Rectángulo) de la página 429 de las copias que
+recibió en clase. Escriba la declaración de esta clase en un archivo p4_act2.cpp.
+
+3. Realice un diagrama de clases para una estructura tipo pila. Escriba la declaración de esta clase en un archivo
+p4_act3.cpp.
+
+1.1. Actividad 1
+Escriba la definición de la clase para el ejercicio 9.5 (Clase Complejos) de la página 428 de las copias que recibió
+en clase. Nombre a este código p4_act1.cpp.
+1.2. Actividad 2
+Termine el ejercicio 9.11 (Clase Rectángulo) de la página 429 de las copias que recibió en clase. Nombre a este
+código p4_act2.cpp.
+1.3. Actividad 3
+Escriba la definición de la clase para el TDU Pila que manejará datos de tipo cadena (std::string). El arreglo
+subyacente será un arreglo estático del tipo std::array. Su clase deberá exponer las funciones más comunes para una
+pila. Escriba un driver program para probar a su clase. Nombre a este código p4_act3.cpp.
